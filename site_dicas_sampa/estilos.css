@@ -1,0 +1,171 @@
+/*Navegação*/
+
+
+
+header {
+  background: #fff;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+}
+
+a:after {
+  display: block;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  border: 0 1px solid #099fff;
+  box-shadow: #0559af;
+}
+
+#logo-frase {
+  display: flex;
+  align-items: center;
+}
+
+#logo-frase img {
+  width: 65px;
+  padding: 10px;
+}
+
+#navegacao,
+li {
+  display: flex;
+  padding: 0 12px;
+}
+
+#topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topo-imagem img {
+  height: 650px;
+  width: 100%;
+}
+
+.login :last-child {
+  background-color: blue;
+  display: flex;
+  border-radius: 30px;
+  color: white;
+  padding-inline-start: 15px;
+}
+
+
+/*Login*/
+
+.modal-contentlogin {
+
+  background-color: #894aed;
+  margin: 15% auto;
+  padding: 28px;
+  border: 1px solid #5e44df;
+  width: 15%;
+  border-radius: 10px;
+}
+
+.closelogin {
+
+  color: rgb(58, 14, 177);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.close:hover,
+.close:focus {
+  color: brown;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modallogin {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(132, 20, 20);
+  background-color: rgba(137, 39, 39, 0.4);
+}
+
+.qsomos {
+
+  background-color: rgb(216, 130, 159);
+  padding: 1px 15px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+/*Dicas*/
+
+.containerdicas {
+  background: #1cecdb;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+img.img-culturalazer,
+.img-gastronomia {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 4px;
+}
+
+.culturalazer-info,
+.gastronomia-info {
+  margin: auto;
+  padding: 1px 300px;
+  display: grid;
+}
+
+.box-info {
+  display: flex;
+  text-align:center;
+  background: #1cecdb;
+
+}
+
+.acesse {
+  text-transform: uppercase;
+  background-color: #392ae3;
+  width: 120px;
+  height: 20px;
+  padding: 4px;
+  margin: auto;
+  border-radius: 5px;
+  color: #fff;
+  
+}
+
+
+
+/*AgendaNews*/
+
+.containeragendanews {
+  background: #c6ec90;
+  text-align: center;
+  padding: 10px;
+}
+
+.agendanews {
+
+  display: flex;
+  padding: 2px 50px;
+  justify-content: space-around;
+}
